@@ -206,7 +206,7 @@ a.link {
 }
 
 .content {
-    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(29, 252, 253) 100%);
+    background: linear-gradient(330deg, #fdc912 0%, #00ffe7 100%);
     padding: 20px;
     border-radius: 20px;
     box-shadow: rgb(108, 117, 125) 0px 5px 7px 0px;
@@ -216,7 +216,7 @@ a.link {
 .content::before {
     border-width: 15px 20px;
     border-style: solid;
-    border-color: transparent transparent transparent rgb(30, 249, 251);
+    border-color: transparent transparent transparent rgb(178 217 81);
     right: -39px;
     position: absolute;
     content: "";
@@ -410,4 +410,15 @@ a {
 
 .column-top {
     margin-top: -240px;
+}
+
+.dashboard-items>ul {
+    list-style: none;
+}
+
+.dashboard-items>ul>li>a {
+    margin-left: 10px;
+    color: #212529;
+    padding: 7px 0;
+    display: block;
 }
