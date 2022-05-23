@@ -9,7 +9,7 @@
 html,
 body {
     font-family: Poppins, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     background-color: rgb(237 237 237);
     color: rgb(48, 45, 45);
@@ -371,4 +371,43 @@ a.pin {
 
 .footer__padding {
     padding: 50px 0px;
+}
+
+section.single {
+    background-color: #03204F;
+    color: white;
+    padding: 50px 0;
+}
+
+.product-learn-dtl ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product-learn-block {
+    background-color: white;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.single-title>p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.recent-added .row.py-2:hover {
+    background-color: white;
+}
+
+.progress {
+    background-color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.column-top {
+    margin-top: -240px;
 }
